@@ -1,0 +1,15 @@
+.videoContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    text-align: left;
+}
+
+.videoContainerBody {
+    padding: 0px;
+}
+
+.content {
+    margin-top: 0px;
+    padding: 20px;
+}

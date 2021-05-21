@@ -1,0 +1,10 @@
+.container {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+}
+
+.row {
+    margin-top: 5vh;
+}

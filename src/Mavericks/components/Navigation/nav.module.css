@@ -1,0 +1,9 @@
+.nav {
+    font-family: var(--avant-font);
+    background-color: white!important;
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+}

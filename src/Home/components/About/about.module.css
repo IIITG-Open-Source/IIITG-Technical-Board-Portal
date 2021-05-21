@@ -1,0 +1,18 @@
+.image {
+    width: 100%;
+}
+
+.content {
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    font-family: var(--cabin);
+}
+
+.title {
+    font-size: 70px;
+}
+
+.description {
+    font-size: 20px;
+}

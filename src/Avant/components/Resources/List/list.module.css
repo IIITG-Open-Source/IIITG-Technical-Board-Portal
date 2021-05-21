@@ -1,0 +1,29 @@
+.list {
+    border: none;
+    border-radius: 0px;
+    background-color: transparent;
+    margin: 2vh 0px;
+}
+
+.listContainer {
+    margin: 0px auto;
+    padding: 0px;
+}
+
+.listBody {
+    padding: 0px;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 991px) {
+    .listContainer {
+        width: 90%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 992px) {
+    .listContainer {
+        width: 40%;
+    }
+}

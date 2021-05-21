@@ -1,0 +1,14 @@
+  
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@700&display=swap');
+
+:root {
+    /* Colour Scheme */
+    --mavericks-colour1: #e8417c;
+    --mavericks-colour2: #bc3b8d;
+    --mavericks-colour3: #090809;
+    --mavericks-colour4: #73cdff;
+    --mavericks-colour5: #235789;
+
+    /* Fonts */
+    --mavericks-font: Poppins, sans-serif;
+}

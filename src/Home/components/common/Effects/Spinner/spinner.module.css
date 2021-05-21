@@ -1,0 +1,15 @@
+.spinner {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    text-align: center;
+}
+
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.icon {
+    font-size: 150px;
+}

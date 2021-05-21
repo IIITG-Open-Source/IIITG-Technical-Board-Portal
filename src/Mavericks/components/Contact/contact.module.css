@@ -1,0 +1,71 @@
+.form {
+    text-align: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.input {
+    background: white;
+    border: 2px solid var(--avant-colour5);
+    color: black;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 20px;
+    outline: none;
+    font-family: var(--avant-font);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.input:focus {
+    color: black;
+    outline: none;
+    border: 2px solid var(--avant-colour5);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.input.small {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+    font-family: var(--avant-font);
+    border: 1px solid var(--avant-colour5);
+    background-color: var(--avant-colour5);
+    border-radius: 0px;
+    font-size: 30px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.mapContainer {
+    padding: 5%;
+    box-sizing: border-box;
+}
+
+.imageContainer {
+    width: 100%;
+    height: 100%;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (max-width: 991px) {
+    .map {
+        height: 400px;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .map {
+        height: 80%;
+        width: 100%;
+        box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    }
+}

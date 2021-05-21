@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@700&display=swap');
+
+:root {
+    /* Colour Scheme */
+    --colour2: #bc3b8d;
+    --colour3: #090809;
+    --colour4: #73cdff;
+    --colour5: #235789;
+    /* Link Colour */
+    --link-colour: #e8417c;
+    --link-hover-colour: #e8417c;
+    --link-bg-colour: white;
+    /* Footer Colour */
+    --footer-colour: #e8417c;
+    /* About Colour */
+    --about-bg-colour: transparent;
+    --about-heading-colour: #e8417c;
+
+    /* Fonts */
+    --font: 'Cabin', sans-serif;
+}
