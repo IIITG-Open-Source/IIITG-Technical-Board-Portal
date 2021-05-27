@@ -1,7 +1,8 @@
 import React from 'react';
 import Header from '../components/Header';
 import Contact from '../components/Contact';
-
+import Gallery from '../components/Gallery';
+import About from '../components/About';
 import HeaderImage from './images/header-fg.png';
 
 function Home(props) {
@@ -23,7 +24,8 @@ function Home(props) {
                 image: HeaderImage,
                 // bg: BackgroundImage
             }} />
-            
+            <About id="about" />
+            <Gallery id="gallery" href="/mavericks/gallery"/>
             <Contact id="contact" withMap={false} style = {{
                 backgroundColor: sectionColour,
             }} />
