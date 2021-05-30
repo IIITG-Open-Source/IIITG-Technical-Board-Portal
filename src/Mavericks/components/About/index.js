@@ -1,12 +1,12 @@
 import React from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import Skeleton from 'react-loading-skeleton';
-import Section from '../common/Section';
+import Section from '../../../Avant/components/common/Section';
 import heading from './images/aboutHeading.svg';
-import image from './images/about.svg';
+import image from './images/about.png';
 import Styles from './about.module.css';
 //Firebase
-import firebase from '../../firebase';
+import firebase from '../../../Avant/firebase';
 
 class About extends React.Component {
     constructor(props) {
@@ -38,7 +38,7 @@ class About extends React.Component {
 
     render() {
         let headingStyle;
-        if (this.state.width <= 600) {
+        if (this.state.width <= 767) {
             headingStyle = {
                 transform: "rotate(90deg)"
             };
@@ -55,7 +55,7 @@ class About extends React.Component {
                             <Image src={heading} className={Styles.heading} style={headingStyle} />
                         </Col>
                         <Col>
-                            <Image src={image} className={Styles.image}></Image>
+                            <img src={image} className={Styles.image} alt=""/>
                             <p className={Styles.content}>
                                 {this.state.content ? this.state.content : (
                                     <Skeleton count={8} />
