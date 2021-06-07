@@ -1,0 +1,48 @@
+.entry {
+    font-family: var(--avant-font);
+    padding: 0px;
+}
+
+.card {
+    border: 0px;
+    background-color: transparent;
+    height: 400px;
+}
+
+.wrapper {
+    position: relative;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    border-radius: 0px;
+}
+
+.overlay {
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    background: #23578988;
+}
+
+.content {
+    height: 100%;
+    padding: 0px;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading {
+    margin-top: 0px;
+    font-size: 40px;
+}
+
+.linksWrapper {
+    margin-top: auto;
+}
