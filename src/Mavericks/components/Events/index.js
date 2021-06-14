@@ -1,10 +1,10 @@
 import React from "react";
 import SectionHeader from "../common/SectionHeader";
 import Section from "../common/Section";
-import Link from "../common/Link";
+import Link from "../common/Link/index";
 import Grid from "./Grid";
 //Firebase
-import firebase from "../../firebase";
+import firebase from "../../../Avant/firebase/index";
 
 class Events extends React.Component {
   constructor(props) {
@@ -25,7 +25,7 @@ class Events extends React.Component {
           let events = content.map((event) => ({
             title: event.name,
             image:
-              "https://appsmaventech.com/images/blog/The-Evolution-Of-Web-Development-Via-Machine-Learning.jpg",
+              "https://image.freepik.com/free-vector/background-design-with-blue-black-theme_1308-4821.jpg",
             description: "Introduction",
           }));
 
